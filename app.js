@@ -3,6 +3,16 @@ const app = Vue.createApp({
     return { 
       goals: [], 
       enteredGoal: "" ,
+      toDo:[
+        {
+         "id":1,
+         "task":"reading",
+        },
+        {
+         "id":2,
+         "task":"writing",
+        }
+      ]
     };
   },
   methods: {
